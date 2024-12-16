@@ -86,7 +86,7 @@ def auth_ui():
                 st.success("Sign up successful! Please log in.")
 
 def main():
-    st.title("AI GPWEB Chat Interface")
+    st.title("AI2 GPWEB Chat Interface")
     init_session_state()
 
     if st.session_state.auth is None:
